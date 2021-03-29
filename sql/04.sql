@@ -16,4 +16,5 @@ SELECT DISTINCT
    JOIN actor a1 ON fa1.actor_id = a1.actor_id
    WHERE 
         unnest = 'Behind the Scenes'
+   ORDER BY "Actor Name"
 ;
